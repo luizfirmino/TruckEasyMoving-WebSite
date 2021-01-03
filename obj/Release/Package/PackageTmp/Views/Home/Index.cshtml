@@ -1,0 +1,583 @@
+﻿@{
+    Layout = null;
+    int reviewsCount = 1;
+}
+@using System.Configuration;
+@model TruckEasyWebSite.Models.WebSite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131657646-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-131657646-1');
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Luiz Firmino" />
+    <meta name="keywords" content="Moving, Labor Moving, Transportation, Home Improvements, packing, pack, unpack, unpacking, furniture assembly, small movings, pickup with delivery, delivery, Craigslist pickup, movers, moving labor, small movings" />
+    <title>Truck Easy Moving &amp; Services</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- Third party plugin CSS-->
+    <link href="/Content/magnific-popup.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/Content/styles.css" rel="stylesheet" />
+    <link href="/Content/form-validation.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="~/Content/assets/img/truck-easy-logo.png" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Services</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://clients.truckeasymoving.com/" target="_blank"><i class="fas fa-key"></i> Clients Area</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-uppercase text-white font-weight-bold">Truck Easy Moving<br />& Services</h1>
+                    <hr class="divider my-4" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 font-weight-light mb-5">"We take care of your belongings as if it was our own"</p>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About section-->
+    <section class="page-section bg-primary" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">We are here to offer our best!</h2>
+                    <hr class="divider light my-4" />
+                    <p class="text-white-50 mb-4">
+                        We are <b>Truck Easy Moving & Services</b>, a local moving company that was founded in 2015 and we have been helping a lot of people moving in San Diego ever since.<br />
+                        Our team is prepared for any job big or small, and we always do it with a wide smile on our face. No matter what we have to do, we love it!<br /><br />
+                        Our goal is not to be the biggest moving company in the world, but to be the greatest moving company for you - we pursue your satisfaction.<br /><br />
+                        Take a minute to read our reviews, you can count on us!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews section-->
+    <section class="page-section" id="reviews">
+        <div class="container">
+            <h2 class="text-center mt-0">Reviews</h2>
+            <hr class="divider my-4" />
+
+            <div id="carouselExampleControls" class="carousel slide h-100" data-ride="carousel">
+                <div class="carousel-inner">
+                    @foreach (var item in Model.reviews)
+                    {
+                        <div class="carousel-item text-center @((reviewsCount == 1) ? "active" :  "" )">
+                            @for (int x = 0; x < item.stars; x++)
+                            {
+                                <i class="fas fa-star text-warning"></i>
+                            }
+                            @item.created_at <br />
+                            @item.review<br /><br />
+                            <i class="fas fa-user-circle"></i> @item.customerName<br />
+                            <small>@item.service</small>
+                        </div>
+                        reviewsCount++;
+                    }
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="far fa-4x fa-thumbs-up text-primary mb-4"></i>
+                        <h3 class="h4 mb-2">453+</h3>
+                        <p class="text-muted mb-0">reviews and counting</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fab fa-4x fa-hornbill text-primary mb-4"></i>
+                        <h3 class="h4 mb-2">93%</h3>
+                        <p class="text-muted mb-0">referral rate</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="far fa-4x fa-check-circle text-primary mb-4"></i>
+                        <h3 class="h4 mb-2">2700+</h3>
+                        <p class="text-muted mb-0">jobs completed!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-users text-primary mb-4"></i>
+                        <h3 class="h4 mb-2">1200+</h3>
+                        <p class="text-muted mb-0">happy customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio section-->
+    <section id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="/Content/assets/img/portfolio/fullsize/local-moving.jpg">
+                        <img class="img-fluid" src="/Content/assets/img/portfolio/thumbnails/local-moving.jpg" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name">Local Moving</div>
+                            <div class="project-category text-white-50">Our team is prepared to move you with a wide smile on the face.</div>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="/Content/assets/img/portfolio/fullsize/long-distance.jpg">
+                        <img class="img-fluid" src="/Content/assets/img/portfolio/thumbnails/long-distance.jpg" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name">Long Distance Moving</div>
+                            <div class="project-category text-white-50">Got a truck/POD? We can help you load or unload your container.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="/Content/assets/img/portfolio/fullsize/moving-labor.jpg">
+                        <img class="img-fluid" src="/Content/assets/img/portfolio/thumbnails/moving-labor.jpg" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name">Moving Labor</div>
+                            <div class="project-category text-white-50">Got a truck or POD?<br />We can help you load or unload your container.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="/Content/assets/img/portfolio/fullsize/packing.jpg">
+                        <img class="img-fluid" src="/Content/assets/img/portfolio/thumbnails/packing.jpg" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name">Professional Packing</div>
+                            <div class="project-category text-white-50">Fast and efficienty, our team will protect your belongings.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="/Content/assets/img/portfolio/fullsize/furniture-assembly.jpg">
+                        <img class="img-fluid" src="/Content/assets/img/portfolio/thumbnails/furniture-assembly.jpg" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name">Furniture Assembly</div>
+                            <div class="project-category text-white-50">Got a new furniture? We have expertize and the best price in town.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="/Content/assets/img/portfolio/fullsize/tv-mount.jpg">
+                        <img class="img-fluid" src="/Content/assets/img/portfolio/thumbnails/tv-mount.jpg" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name">TV Mount Installation</div>
+                            <div class="project-category text-white-50">We know how to hang your TV safely and even.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to action section-->
+    <section class="page-section bg-dark" id="pricing">
+        <div class="container text-center">
+            <h2 class="text-white mt-0">Residential Moving</h2>
+            <hr class="divider light my-4" />
+
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Studio / 1 bedroom</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$80<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>2 hours minimum</li>
+                            <li>2 professional movers</li>
+                            <li>16 ft box truck</li>
+                            <li>dollys</li>
+                            <li>disassembly/reassembly</li>
+                            <li>free use of wardrobe boxes</li>
+                            <li>gas/mileage included <small>(under 30 miles)</small></li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-primary js-scroll-trigger" href="#contact">Book it!</a>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">2+ bedrooms</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$120<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 hours minimum</li>
+                            <li>3 professional movers</li>
+                            <li>26 ft box truck</li>
+                            <li>dollys</li>
+                            <li>disassembly/reassembly</li>
+                            <li>free use of wardrobe boxes</li>
+                            <li>gas/mileage included <small>(under 20 miles)</small></li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-primary js-scroll-trigger" href="#contact">Book it!</a>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Custom Moving</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>&nbsp;</li>
+                            <li>It feels like you need a custom quote?</li>
+                            <li><small>We have solutions for your project</small></li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-outline-primary js-scroll-trigger" href="#contact">Contact Us!</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-deck mb-3 text-center">
+
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Moving Labor</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$70<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>2 hours minimum</li>
+                            <li>2 professional movers</li>
+                            <li>dollys</li>
+                            <li>gas/mileage included <small>(under 30 miles)</small></li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-primary js-scroll-trigger" href="#contact">Book it!</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Moving Labor</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$90<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 hours minimum</li>
+                            <li>3 professional movers</li>
+                            <li>dollys</li>
+                            <li>gas/mileage included <small>(under 30 miles)</small></li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-primary js-scroll-trigger" href="#contact">Book it!</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Custom Moving Labor</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>&nbsp;</li>
+                            <li>It feels like you need a custom quote?</li>
+                            <li><small>We have solutions for your project</small></li>
+                            <li>&nbsp;</li>
+                            <li>&nbsp;</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-outline-primary js-scroll-trigger" href="#contact">Contact Us!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Professional Packing</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$70<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 hours minimum</li>
+                            <li>2 professional packers</li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-primary js-scroll-trigger" href="#contact">Book it!</a>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Furniture Assembly</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><small class="text-muted">starting at</small>$80</h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>professional assembler</li>
+                            <li>power tools</li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                            <li>&nbsp;</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-primary js-scroll-trigger" href="#contact">Book it!</a>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">TV Mount Installation</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><small class="text-muted">starting at</small>$60</h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>professional handyman</li>
+                            <li>power tools</li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                            <li>&nbsp;</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-primary js-scroll-trigger" href="#contact">Book it!</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-white mt-0">Office</h2>
+            <hr class="divider light my-4" />
+
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Office Moving</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><small class="text-muted">starting at</small>$90<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>3 hours minimum</li>
+                            <li>2 movers</li>
+                            <li>16ft truck equipped with liftgate</li>
+                            <li>packing supplies included</li>
+                            <li>assembly/reassemble</li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-outline-primary js-scroll-trigger" href="#contact">Contact Us!</a>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Furniture Assembly</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><small class="text-muted">starting at</small>$40<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>professional assembler</li>
+                            <li>power tools</li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-outline-primary js-scroll-trigger" href="#contact">Contact Us!</a>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Handyman</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><small class="text-muted">starting at</small>$40<small class="text-muted">/hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>professional handyman</li>
+                            <li>power tools</li>
+                            <li>no hidden or extra fees</li>
+                            <li>no deposits</li>
+                            <li>free cancelation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-block btn-outline-primary js-scroll-trigger" href="#contact">Contact Us!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact section-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mt-0">Let's Get It Done!</h2>
+                    <hr class="divider my-4" />
+                    <p class="text-muted mb-5">Ready to start your next project with us?<br />Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+
+                    @using (Html.BeginForm("Index", "Home", new { ReturnUrl = ViewBag.ReturnUrl },
+                            FormMethod.Post, new { @class = "needs-validation", @id = "form" }))
+                    {
+
+                        <small class="text-danger">
+                            @Html.ValidationSummary(false)<br />
+                        </small>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">@Html.LabelFor(model => model.firstName)</label>
+                                @Html.EditorFor(model => model.firstName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">@Html.LabelFor(model => model.lastName)</label>
+                                @Html.EditorFor(model => model.lastName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="email">@Html.LabelFor(model => model.email)</label>
+                                @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="phone">@Html.LabelFor(model => model.phoneNumber)</label>
+                                @Html.EditorFor(model => model.phoneNumber, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="address">@Html.LabelFor(model => model.orderServiceId)</label>
+                                @Html.DropDownList("orderServiceId", Model.comboServices, "Select ...", new { @class = "form-control", required = "required" })
+
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label for="address2">@Html.LabelFor(model => model.dateSchedule)</label>
+                                @Html.EditorFor(model => model.dateSchedule, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="address">@Html.LabelFor(model => model.orderSourceId)</label>
+                            @Html.DropDownList("orderSourceId", Model.comboSources, "Select ...", new { @class = "form-control", required = "required" })
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="address2">@Html.LabelFor(model => model.notes)</label>
+                            @Html.TextAreaFor(model => model.notes, new { @class = "form-control", placeholder = "Details such as number of bed rooms, oversized furniture, flight of stairs ...", required = "required" })
+
+                        </div>
+
+                        <div class="g-recaptcha" data-sitekey="@ConfigurationManager.AppSettings["Google-SiteKey"]"></div>
+                        <label for="recaptcha" id="lblrecaptcha"></label>
+
+                        <hr class="mb-4">
+                        <button class="btn btn-primary btn-lg btn-block" id="btnSubmit" type="submit">Send</button>
+
+                    }
+
+                    <div id="formSubmitted" class="alert alert-success text-center" style="display: none;" role="alert">
+                        <i class="fas fa-check-double"></i>
+                        Your information was successfully sent!<br>
+                        In order to receive our communication, please, make sure to add our e-mail address `info@truckeasymoving.com` to your Contact List or Address Book.<br /><br />
+                        We will get back to you as soon as possible, thank you very much for your message.
+                    </div>
+
+                </div>
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                    <br /><br />
+                    <a href="tel:16194319439">
+                        <i class="far fa-clock fa-3x mb-3 text-muted"></i><br />
+                        Monday through Monday<br /><small>9am-5pm</small>
+                    </a><br /><br />
+
+                    <a href="tel:16194319439">
+                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i><br />
+                        +1 619 431 9439
+                    </a><br /><br />
+
+                    <a href="https://api.whatsapp.com/send?phone=16194319439">
+                        <i class="fab fa-whatsapp fa-3x mb-3 text-muted"></i><br />
+                        Chat with us
+                    </a><br /><br />
+
+                    <a href="sms:16194319439">
+                        <i class="fas fa-sms fa-3x mb-3 text-muted"></i><br />
+                        Text us
+                    </a><br /><br />
+
+                    <a class="d-block" href="mailto:info@truckeasymoving.com">
+                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i><br />
+                        info@truckeasymoving.com
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container">
+            <div class="small text-center text-muted">Copyright © 2020 - Truck Easy Moving & Services</div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/Scripts/jquery-3.4.1.slim.min.js")
+    @Scripts.Render("~/Scripts/jquery-3.4.1.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+    @Scripts.Render("~/Scripts/bootstrap.min.js")
+    @Scripts.Render("~/Scripts/form-validation.js")
+
+    <!-- Bootstrap core JS-->
+    @Scripts.Render("~/Scripts/bootstrap.bundle.min.js")
+    @Scripts.Render("~/Scripts/jquery.easing.min.js")
+    @Scripts.Render("~/Scripts/jquery.magnific-popup.min.js")
+
+    <!-- Core theme JS-->
+    @Scripts.Render("~/Scripts/scripts.js")
+</body>
+</html>

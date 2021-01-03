@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="truckezdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="truckezdbEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="spAddOrder">
+      <Parameter Name="orderServiceId" Mode="In" Type="Int32" />
+      <Parameter Name="customerId" Mode="In" Type="Int32" />
+      <Parameter Name="orderSourceId" Mode="In" Type="Int32" />
+      <Parameter Name="dateSchedule" Mode="In" Type="DateTime" />
+      <Parameter Name="timeSchedule" Mode="In" Type="Time" />
+      <Parameter Name="orderId" Mode="Out" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,239 @@
+﻿@{
+    Layout = null;
+}
+@model TruckEasyWebSite.Models.WebSite
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Luiz Firmino" />
+    <meta name="keywords" content="Moving, Labor Moving, Transportation, Home Improvements, packing, pack, unpack, unpacking, furniture assembly, small movings, pickup with delivery, delivery, Craigslist pickup, movers, moving labor, small movings" />
+    <title>Truck Easy Moving &amp; Services</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/form-validation.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="~/Content/assets/img/truck-easy-logo.png" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">TruckEasyMoving.com</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Call to action section-->
+    <section class="page-section bg-dark" id="pricing">
+        <div class="container text-white">
+            <h2 class="text-white mt-0">Booking My Project</h2>
+            <hr class="divider light my-4" />
+
+
+            <div class="col-md-12">
+
+                @using (Html.BeginForm("Index", "Home", new { ReturnUrl = ViewBag.ReturnUrl },
+                        FormMethod.Post, new { @class = "needs-validation", @id = "form" }))
+                {
+
+                    <small class="text-danger">
+                        @Html.ValidationSummary(true)<br />
+                    </small>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName">@Html.LabelFor(model => model.firstName)</label>
+                            @Html.EditorFor(model => model.firstName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName">@Html.LabelFor(model => model.lastName)</label>
+                            @Html.EditorFor(model => model.lastName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="email">@Html.LabelFor(model => model.email)</label>
+                            @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="phone">@Html.LabelFor(model => model.phoneNumber)</label>
+                            @Html.EditorFor(model => model.phoneNumber, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="address">@Html.LabelFor(model => model.orderServiceId)</label>
+                            @Html.DropDownList("orderServiceId", Model.comboServices, "Select ...", new { @class = "form-control", required = "required" })
+
+                        </div>
+
+                        <div class="col-md-2 mb-3">
+                            <label for="address2">@Html.LabelFor(model => model.dateSchedule)</label>
+                            @Html.EditorFor(model => model.dateSchedule, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="timeSchedule">@Html.LabelFor(model => model.timeSchedule)</label>
+                            @Html.EditorFor(model => model.timeSchedule, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="address2">@Html.LabelFor(model => model.flexible)</label>
+                            @Html.EditorFor(model => model.flexible, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address">@Html.LabelFor(model => model.orderSourceId)</label>
+                        @Html.DropDownList("orderSourceId", Model.comboSources, "Select ...", new { @class = "form-control", required = "required" })
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address2">@Html.LabelFor(model => model.notes)</label>
+                        @Html.TextAreaFor(model => model.notes, new { @class = "form-control", placeholder = "Details such as number of bed rooms, oversized furniture, flight of stairs ...", required = "required" })
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="address">@Html.LabelFor(model => model.address)</label>
+                            @Html.EditorFor(model => model.address, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="addressComp">@Html.LabelFor(model => model.addressComp)</label>
+                            @Html.EditorFor(model => model.addressComp, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label for="city">@Html.LabelFor(model => model.city)</label>
+                            @Html.EditorFor(model => model.city, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="state">@Html.LabelFor(model => model.state)</label>
+                            @Html.EditorFor(model => model.state, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="zipcode">@Html.LabelFor(model => model.zipcode)</label>
+                            @Html.EditorFor(model => model.zipcode, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                        </div>
+                    </div>
+
+
+
+
+                    <div id="locationField">
+                        <input id="autocomplete"
+                               placeholder="Enter your address"
+                               onFocus="geolocate()"
+                               type="text" />
+                    </div>
+
+                    <!-- Note: The address components in this sample are typical. You might need to adjust them for
+                   the locations relevant to your app. For more information, see
+             https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform
+        -->
+
+                    <table id="address">
+                        <tr>
+                            <td class="label">Street address</td>
+                            <td class="slimField"><input class="field" id="street_number" disabled="true" /></td>
+                            <td class="wideField" colspan="2"><input class="field" id="route" disabled="true" /></td>
+                        </tr>
+                        <tr>
+                            <td class="label">City</td>
+                            <td class="wideField" colspan="3"><input class="field" id="locality" disabled="true" /></td>
+                        </tr>
+                        <tr>
+                            <td class="label">State</td>
+                            <td class="slimField"><input class="field" id="administrative_area_level_1" disabled="true" /></td>
+                            <td class="label">Zip code</td>
+                            <td class="wideField"><input class="field" id="postal_code" disabled="true" /></td>
+                        </tr>
+                        <tr>
+                            <td class="label">Country</td>
+                            <td class="wideField" colspan="3"><input class="field" id="country" disabled="true" /></td>
+                        </tr>
+                    </table>
+                    <!-- Replace the value of the key parameter with your own API key. -->
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&libraries=places&callback=initAutocomplete"
+                            async defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr class="mb-4">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Send</button>
+
+                }
+
+                <div id="formSubmitted" class="alert alert-success text-center" style="display: none;" role="alert">
+                    <i class="fas fa-check-double"></i>
+                    Your information was successfully sent!<br>
+                    In order to receive our communication, please, make sure to add our e-mail address `info@truckeasymoving.com` to your Contact List or Address Book.<br /><br />
+                    We will get back to you as soon as possible, thank you very much for the interest.
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container">
+            <div class="small text-center text-muted">Copyright © 2020 - Truck Easy Moving & Services</div>
+        </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&libraries=places&callback=initAutocomplete" async defer></script>
+
+
+    @Scripts.Render("~/Scripts/jquery-3.4.1.slim.min.js")
+    @Scripts.Render("~/Scripts/jquery-3.4.1.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.min.js")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+    @Scripts.Render("~/Scripts/bootstrap.min.js")
+    @Scripts.Render("~/Scripts/form-validation.js")
+
+    <!-- Bootstrap core JS-->
+    @Scripts.Render("~/Scripts/bootstrap.bundle.min.js")
+    @Scripts.Render("~/Scripts/jquery.easing.min.js")
+    @Scripts.Render("~/Scripts/jquery.magnific-popup.min.js")
+    <!-- Core theme JS-->
+    @Scripts.Render("~/Scripts/scripts.js")
+</body>
+</html>

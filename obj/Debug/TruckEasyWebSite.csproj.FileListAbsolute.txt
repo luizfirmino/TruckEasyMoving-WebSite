@@ -1,0 +1,193 @@
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\TruckEasyWebSite.dll.config
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\TruckEasyWebSite.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\TruckEasyWebSite.pdb
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csc.exe
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csc.exe.config
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csc.rsp
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csi.exe
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csi.exe.config
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csi.rsp
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.AppContext.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Console.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Net.Http.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\vbc.exe
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\vbc.exe.config
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\vbc.rsp
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Antlr3.Runtime.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Newtonsoft.Json.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Helpers.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Mvc.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Optimization.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Razor.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\WebGrease.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Helpers.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Mvc.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Optimization.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Razor.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Newtonsoft.Json.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Antlr3.Runtime.pdb
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.csprojAssemblyReference.cache
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.csproj.CoreCompileInputs.cache
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.csproj.CopyComplete
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.pdb
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\BouncyCastle.Crypto.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Google.Protobuf.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.EntityFramework.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Renci.SshNet.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Ubiety.Dns.Core.dll
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Google.Protobuf.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.EntityFramework.xml
+C:\Users\Luiz Firmino\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Renci.SshNet.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\TruckEasyWebSite.dll.config
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\TruckEasyWebSite.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\TruckEasyWebSite.pdb
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csc.exe
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csc.exe.config
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csc.rsp
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csi.exe
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csi.exe.config
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\csi.rsp
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.AppContext.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Console.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.Compression.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Net.Http.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Net.Sockets.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.ValueTuple.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.XPath.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\vbc.exe
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\vbc.exe.config
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\vbc.rsp
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Antlr3.Runtime.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\BouncyCastle.Crypto.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.SqlServer.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Google.Protobuf.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.Entity.EF6.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.EntityFramework.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Newtonsoft.Json.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Renci.SshNet.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Helpers.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Mvc.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Optimization.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Razor.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Ubiety.Dns.Core.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Ubiety.Logging.Core.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\WebGrease.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\EntityFramework.SqlServer.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Google.Protobuf.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.Entity.EF6.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\MySql.Data.EntityFramework.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Renci.SshNet.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Helpers.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Mvc.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Optimization.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.Razor.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Newtonsoft.Json.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Ubiety.Dns.Core.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Ubiety.Logging.Core.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Antlr3.Runtime.pdb
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.csprojAssemblyReference.cache
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.csproj.CoreCompileInputs.cache
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.csproj.CopyComplete
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.dll
+C:\Users\luizf\source\repos\TruckEasyWebSite\TruckEasyWebSite\obj\Debug\TruckEasyWebSite.pdb

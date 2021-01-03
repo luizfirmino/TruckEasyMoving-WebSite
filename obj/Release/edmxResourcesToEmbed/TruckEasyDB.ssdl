@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="truckezdbModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="spAddCustomer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="truckezdb">
+    <Parameter Name="firstName" Type="varchar" Mode="In" />
+    <Parameter Name="lastName" Type="varchar" Mode="In" />
+    <Parameter Name="email" Type="varchar" Mode="In" />
+    <Parameter Name="phoneNumber" Type="varchar" Mode="In" />
+    <Parameter Name="address" Type="varchar" Mode="In" />
+    <Parameter Name="addressComp" Type="varchar" Mode="In" />
+    <Parameter Name="city" Type="varchar" Mode="In" />
+    <Parameter Name="state" Type="char" Mode="In" />
+    <Parameter Name="zipcode" Type="char" Mode="In" />
+    <Parameter Name="customerId" Type="int" Mode="Out" />
+  </Function>
+  <Function Name="spAddOrder" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="truckezdb">
+    <Parameter Name="orderServiceId" Type="int" Mode="In" />
+    <Parameter Name="customerId" Type="int" Mode="In" />
+    <Parameter Name="orderSourceId" Type="int" Mode="In" />
+    <Parameter Name="dateSchedule" Type="date" Mode="In" />
+    <Parameter Name="timeSchedule" Type="time" Mode="In" />
+    <Parameter Name="orderId" Type="int" Mode="Out" />
+  </Function>
+  <EntityContainer Name="truckezdbModelStoreContainer" />
+</Schema>
